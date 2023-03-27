@@ -51,13 +51,13 @@ from selenium.webdriver import ActionChains
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 driver.maximize_window()
 driver.implicitly_wait(5)
-driver.get("https://www.sfl.ch/resultate/")
+driver.get("https://www.sfl.ch/spielplan/")
 driver.implicitly_wait(2)
 
 
 #scroll down & press 'Mehr anzeigen'
 scroll_origin = ScrollOrigin.from_viewport(0,0)
-for i in range(1,15):
+for i in range(1,10):
     for i in range(1,10):
         ActionChains(driver)\
             .scroll_from_origin(scroll_origin, 0, 500)\
@@ -102,7 +102,7 @@ time.sleep(5)
 
 #open csv file
 try:
-    d = open("resultate.csv","w")
+    d = open("spielplan.csv","w")
 except:
     print("Dateizugriff nicht erfolgreich")
     sys.exit(0)
@@ -128,7 +128,7 @@ for i in range(len(relevant_urls)):
 
         d.write(runde + "," + datum + "," + home + "," + away + "," +  ref1 + "," + ref2 + "," + ref3 + "," + ref4 + "\n")
     except:
-        d.write("" + "" + "" + "\n")
+        d.write(""+""+""+""+""+""+""+""+ "\n")
 
 d.close
 
