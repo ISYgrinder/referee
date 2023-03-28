@@ -1,10 +1,3 @@
-#Ideas:
-#1) go the the pages and get
-#    date, game, refs
-#2) store all in csv file
-#3) get past data 
-#4) store past data as well
-#5) check data - empty lines
 #6) run statistics and plots :)
 
 #https://docs.python.org/3/tutorial/venv.html
