@@ -50,7 +50,7 @@ driver.implicitly_wait(2)
 
 #scroll down & press 'Mehr anzeigen'
 scroll_origin = ScrollOrigin.from_viewport(0,0)
-for i in range(1,2):
+for i in range(1,3):
     for i in range(1,15):
         ActionChains(driver)\
             .scroll_from_origin(scroll_origin, 0, 500)\
