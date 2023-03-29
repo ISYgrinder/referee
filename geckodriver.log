@@ -5275,3 +5275,20 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/5ZLoQB_z02QzB_hHqtk
 1679950357446	Marionette	INFO	Stopped listening on port 63829
 JavaScript warning: https://pagead2.googlesyndication.com/bg/5ZLoQB_z02QzB_hHqtk5fVBr8jKba2eTnMK3sia1eD8.js line 2 > eval line 6528 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 Dynamically enable window occlusion 1
+1680114921531	geckodriver	INFO	Listening on 127.0.0.1:34993
+1680114922108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebUnaKv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: no supported VAAPI profile found. (t=0.445882) [GFX1-]: glxtest: VA-API test failed: no supported VAAPI profile found.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680114922613	Marionette	INFO	Marionette enabled
+1680114922617	Marionette	INFO	Listening on port 42209
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 42209
+WebDriver BiDi listening on ws://127.0.0.1:56097
+1680114922772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebUnaKv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56097/devtools/browser/54593406-7707-4221-83f0-e6dabdebb898
+1680114931159	Marionette	INFO	Stopped listening on port 42209
