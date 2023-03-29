@@ -121,7 +121,7 @@ for i in range(len(relevant_urls)):
 
         d.write(runde + "," + datum + "," + home + "," + away + "," +  ref1 + "," + ref2 + "," + ref3 + "," + ref4 + "\n")
     except:
-        d.write("" + "" + "" + "\n")
+        pass
 
 d.close
 

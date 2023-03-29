@@ -50,8 +50,8 @@ driver.implicitly_wait(2)
 
 #scroll down & press 'Mehr anzeigen'
 scroll_origin = ScrollOrigin.from_viewport(0,0)
-for i in range(1,10):
-    for i in range(1,10):
+for i in range(1,2):
+    for i in range(1,15):
         ActionChains(driver)\
             .scroll_from_origin(scroll_origin, 0, 500)\
             .perform()
@@ -121,7 +121,7 @@ for i in range(len(relevant_urls)):
 
         d.write(runde + "," + datum + "," + home + "," + away + "," +  ref1 + "," + ref2 + "," + ref3 + "," + ref4 + "\n")
     except:
-        d.write(""+""+""+""+""+""+""+""+ "\n")
+        pass
 
 d.close
 
