@@ -5275,3 +5275,49 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/5ZLoQB_z02QzB_hHqtk
 1679950357446	Marionette	INFO	Stopped listening on port 63829
 JavaScript warning: https://pagead2.googlesyndication.com/bg/5ZLoQB_z02QzB_hHqtk5fVBr8jKba2eTnMK3sia1eD8.js line 2 > eval line 6528 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 Dynamically enable window occlusion 1
+1680162516546	geckodriver	INFO	Listening on 127.0.0.1:52693
+1680162519595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52694" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileXR1ukt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680162520768	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680162520785	Marionette	INFO	Listening on port 52701
+Read port: 52701
+WebDriver BiDi listening on ws://127.0.0.1:52694
+1680162521124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileXR1ukt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52694/devtools/browser/55b30489-ee60-4695-9fdc-cb5509cb818c
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 6051 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 3611 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 19112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 819 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 1812 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 7091 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 3940 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 6407 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 2514 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 3294 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 4512 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 3021 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U7EM6LXWj4l78jf_OLdMz79S9xCye0H6LBL4Kfa2sjI.js line 2 > eval line 5219 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1680162701854	Marionette	INFO	Stopped listening on port 52701
+Dynamically enable window occlusion 1
