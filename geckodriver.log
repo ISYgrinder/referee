@@ -6670,8 +6670,9 @@ DevTools listening on ws://127.0.0.1:52186/devtools/browser/06645e5d-492f-433a-a
 JavaScript warning: https://pagead2.googlesyndication.com/bg/TbkRrD5BXGyp-AXWn4EJ5yVok9cUGO3dMlQ2-4_WT-o.js line 2 > eval line 4271 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 [Parent 25216, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
 JavaScript warning: https://pagead2.googlesyndication.com/bg/TbkRrD5BXGyp-AXWn4EJ5yVok9cUGO3dMlQ2-4_WT-o.js line 2 > eval line 3181 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1680384947464	geckodriver	INFO	Listening on 127.0.0.1:52262
-1680384950519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileEhFXmB"
+1680385764107	Marionette	INFO	Stopped listening on port 52196
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileEhFXmB"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1680384951334	Marionette	INFO	Marionette enabled
@@ -6684,8 +6685,9 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:52263/devtools/browser/0ede4a9c-060d-4980-a038-4b12c7cd29fb
 JavaScript warning: https://pagead2.googlesyndication.com/bg/TbkRrD5BXGyp-AXWn4EJ5yVok9cUGO3dMlQ2-4_WT-o.js line 2 > eval line 4499 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/TbkRrD5BXGyp-AXWn4EJ5yVok9cUGO3dMlQ2-4_WT-o.js line 2 > eval line 3586 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1680385163224	geckodriver	INFO	Listening on 127.0.0.1:52350
-1680385166320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofilexArgnk"
+1680385765001	Marionette	INFO	Stopped listening on port 52273
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofilexArgnk"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1680385167139	Marionette	INFO	Marionette enabled
@@ -6698,8 +6700,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:52351/devtools/browser/e41e8a12-b957-4f48-ba3f-2ebaeefbec80
 JavaScript warning: https://pagead2.googlesyndication.com/bg/TbkRrD5BXGyp-AXWn4EJ5yVok9cUGO3dMlQ2-4_WT-o.js line 2 > eval line 6384 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/TbkRrD5BXGyp-AXWn4EJ5yVok9cUGO3dMlQ2-4_WT-o.js line 2 > eval line 3499 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1680385488467	geckodriver	INFO	Listening on 127.0.0.1:52507
-1680385491501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52508" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileXwWUNs"
+1680385765925	Marionette	INFO	Stopped listening on port 52358
+Dynamically enable window occlusion 1
+[Parent 33068, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+l\\AppData\\Local\\Temp\\rust_mozprofileXwWUNs"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1680385492355	Marionette	INFO	Marionette enabled
