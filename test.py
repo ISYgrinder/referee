@@ -55,9 +55,7 @@ def driver_setup(url):
     driver.implicitly_wait(2)
     driver.get(url)
     driver.implicitly_wait(2)
-    print('tick')
     time.sleep(2)
-    print('tack')
 
 def driver_quit():
     driver.quit()
@@ -92,12 +90,11 @@ def scroll_down_press_forward():
         for j in range(15):
             ActionChains(driver).scroll_from_origin(start_point, 0, 400).perform
             time.sleep(1)
-            print('1')
         try:
             mouse.move_to_element(show_more).click().perform()
             time.sleep(1)
         except:
-            print('2')
+            print('1')
 
 def get_page_source_and_create_soup():
     page_source = driver.page_source
@@ -108,7 +105,8 @@ def get_all_href_from_urls(soup):
     all_urls = [a['href'] for a in soup('a') if a.has_attr('href')]
     return all_urls
 
-def filter_relevant_href(all_urls, myFilter):
+def filter_relevant_href(all_urls):
+    myFilter = r"^https://www.sfl.ch/spieldetail/detail/"
     relevant_urls = [url for url in all_urls if re.match(myFilter, url)]
     relevant_urls = list(set(relevant_urls))
     return relevant_urls
@@ -134,14 +132,13 @@ def find_all_infos(soup):
 def main():
     url = "https://www.sfl.ch/spielplan/"
     csvFile = "test.csv"
-    myFilter = r"^https://www.sfl.ch/spieldetail/detail/"
     
     open_or_create_csv_file(csvFile)
     driver_setup(url)
     scroll_down_press_forward()
     soup = get_page_source_and_create_soup()
     all_urls = get_all_href_from_urls(soup)
-    relevant_urls = filter_relevant_href(all_urls, myFilter)
+    relevant_urls = filter_relevant_href(all_urls)
     for i in range(len(relevant_urls)):
         driver.get(relevant_urls[i])
         soup = get_page_source_and_create_soup()
