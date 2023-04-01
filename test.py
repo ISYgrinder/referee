@@ -55,6 +55,9 @@ def driver_setup(url):
     driver.implicitly_wait(2)
     driver.get(url)
     driver.implicitly_wait(2)
+    print('tick')
+    time.sleep(2)
+    print('tack')
 
 def driver_quit():
     driver.quit()
@@ -87,13 +90,14 @@ def scroll_down_press_forward():
     show_more = driver.find_element(By.PARTIAL_LINK_TEXT, "Mehr anzeigen")
     for i in range(2):
         for j in range(15):
-            ActionChains(driver).scroll_from_origin(start_point, 0, 500).perform
+            ActionChains(driver).scroll_from_origin(start_point, 0, 400).perform
             time.sleep(1)
+            print('1')
         try:
             mouse.move_to_element(show_more).click().perform()
             time.sleep(1)
         except:
-            print('1')
+            print('2')
 
 def get_page_source_and_create_soup():
     page_source = driver.page_source
