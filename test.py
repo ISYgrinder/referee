@@ -85,12 +85,12 @@ def close_csv_file():
 def scroll_down_press_forward():
     mouse = ActionChains(driver)
     start_point = ScrollOrigin.from_viewport(0,0)
-    show_more = driver.find_element(By.PARTIAL_LINK_TEXT, "Mehr anzeigen")
-    for i in range(2):
+    for i in range(5):
         for j in range(15):
-            ActionChains(driver).scroll_from_origin(start_point, 0, 400).perform
+            ActionChains(driver).scroll_from_origin(start_point, 0, 500).perform()
             time.sleep(1)
         try:
+            show_more = driver.find_element(By.PARTIAL_LINK_TEXT, "Mehr anzeigen")
             mouse.move_to_element(show_more).click().perform()
             time.sleep(1)
         except:
