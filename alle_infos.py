@@ -149,7 +149,8 @@ def main():
             pass
     driver_quit()
     
-    visible_break = ['-', '-', '-', '-', '-', '-', '-', '-']
+    visible_break = ['Hier könnte ihre Werbung stehen']
+    #visible_break = ['-', '-', '-', '-', '-', '-', '-', '-']
     for i in range (3): 
         write_in_csv_file(visible_break)
 
@@ -170,8 +171,6 @@ def main():
 
     close_csv_file()
     driver_quit()
-
-
 
 main()
 
