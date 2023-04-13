@@ -8351,3 +8351,23 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/1qDM7jHzlwhnZd-s95C
 JavaScript warning: https://pagead2.googlesyndication.com/bg/1qDM7jHzlwhnZd-s95CHH_k3xryNtTKIC4s2Es7tSnI.js line 2 > eval line 2472 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1681072167930	Marionette	INFO	Stopped listening on port 61026
 Dynamically enable window occlusion 1
+1681421386601	geckodriver	INFO	Listening on 127.0.0.1:52819
+1681421389618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52820" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofilepe4y4K"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681421391429	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681421391447	Marionette	INFO	Listening on port 52827
+Read port: 52827
+WebDriver BiDi listening on ws://127.0.0.1:52820
+1681421391856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofilepe4y4K\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52820/devtools/browser/890d4510-cbc0-4446-8288-4f40b0eee7df
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 3457 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 24156, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 7735 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1204 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 6828 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4608 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681421623296	Marionette	INFO	Stopped listening on port 52827
+Dynamically enable window occlusion 1
