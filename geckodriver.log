@@ -8444,3 +8444,60 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/w05zGG9qaosOBIL1Kb6
 JavaScript error: , line 0: uncaught exception: undefined
 1682497929113	Marionette	INFO	Stopped listening on port 51749
 Dynamically enable window occlusion 1
+1683228456641	geckodriver	INFO	Listening on 127.0.0.1:52046
+1683228459694	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofile73ExdQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683228461316	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683228461343	Marionette	INFO	Listening on port 52058
+Read port: 52058
+WebDriver BiDi listening on ws://127.0.0.1:52047
+1683228461900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofile73ExdQ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52047/devtools/browser/e34abc2b-7205-4696-8b8b-835298c08275
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j0qzk3svFByPiPxQkc7LDOXCr5XIGqNSbsgPGYk3B2s.js line 2 > eval line 5424 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j0qzk3svFByPiPxQkc7LDOXCr5XIGqNSbsgPGYk3B2s.js line 2 > eval line 5502 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j0qzk3svFByPiPxQkc7LDOXCr5XIGqNSbsgPGYk3B2s.js line 2 > eval line 3496 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 183: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j0qzk3svFByPiPxQkc7LDOXCr5XIGqNSbsgPGYk3B2s.js line 2 > eval line 1702 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j0qzk3svFByPiPxQkc7LDOXCr5XIGqNSbsgPGYk3B2s.js line 2 > eval line 7366 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j0qzk3svFByPiPxQkc7LDOXCr5XIGqNSbsgPGYk3B2s.js line 2 > eval line 1890 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j0qzk3svFByPiPxQkc7LDOXCr5XIGqNSbsgPGYk3B2s.js line 2 > eval line 5676 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1683228633818	Marionette	INFO	Stopped listening on port 52058
+Dynamically enable window occlusion 1
+1683228649742	geckodriver	INFO	Listening on 127.0.0.1:52158
+1683228652795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileABuJGd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683228653789	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683228653803	Marionette	INFO	Listening on port 52166
+Read port: 52166
+WebDriver BiDi listening on ws://127.0.0.1:52159
+1683228654147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileABuJGd\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52159/devtools/browser/eca9f302-4287-4197-9230-140a839f233f
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j0qzk3svFByPiPxQkc7LDOXCr5XIGqNSbsgPGYk3B2s.js line 2 > eval line 1430 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1683228805308	Marionette	INFO	Stopped listening on port 52166
+Dynamically enable window occlusion 1
