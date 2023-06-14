@@ -36,7 +36,7 @@
 #To see all packages: 
 #python -m pip list 
 
-#git test :)
+
 
 
 from bs4 import BeautifulSoup
