@@ -46,13 +46,16 @@ import time
 import re
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By 
 from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
 from selenium.webdriver import ActionChains
 
 def driver_setup(url):
     global driver
-    driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+    service = Service('/path/to/firefoxdriver')
+    driver = webdriver.Firefox(service=service)
+    #driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
     driver.maximize_window()
     driver.implicitly_wait(2)
     driver.get(url)
